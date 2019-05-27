@@ -229,8 +229,8 @@ def encodePostStr(postData):
 # 发送通知邮件
 def sendMail(text):
     sender = 'no-reply@myhost.cn'
-    receiver = ['penn@myhost.cn']
-    mailToCc = ['penn@myhost.cn']
+    receiver = ['corre@myhost.cn']
+    mailToCc = ['corre@myhost.cn']
     subject = '[AutomantionTest]接口自动化测试报告通知'
     smtpserver = 'smtp.exmail.qq.com'
     username = 'no-reply@myhost.cn'
